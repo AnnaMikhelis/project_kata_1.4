@@ -14,7 +14,7 @@ body {
     height: 100%;
     font-family: "TT Lakes";
     box-shadow: 16px 0px 52px 0px #0E185033;
-
+    min-height: 100vh;
 }
 
 .header-mobile {
@@ -75,12 +75,15 @@ body {
 
 .mobile-menu__block {
     height: 100%;
-    margin-bottom: 268px;
 }
 
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
 .mobile-menu__block:last-child {
-    height: 100%;
     margin-bottom: 32px;
+    margin-top: auto; 
 }
 
 .text-16-reg {
